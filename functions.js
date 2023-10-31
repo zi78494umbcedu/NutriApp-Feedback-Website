@@ -19,8 +19,12 @@ function label(){
     } 
     //application name allowed and default label design selected
     else  {
-        if(mods.indexOf(app.value)=== 0||mods.indexOf(app.value)===1||mods.indexOf(app.value)===3){
-            document.write('<div style="text-align:center"><img src="/Users/ashwingupta/eclipse-workspace/NutriApp-Feedback-Website/labels/minimum.png" style="width:500px;height:700px;" alt="Google Chrome Linear Design"></div>');
+        //default label design
+        if(mods.indexOf(app.value)===0){
+            document.write('<div style="text-align:center"><img src="/Users/ashwingupta/eclipse-workspace/NutriApp-Feedback-Website/labels/default.png" style="width:300px;height:1000px;" alt="Google Chrome Linear Design"></div>');
+        //minimum and html modality
+        }else if(mods.indexOf(app.value)=== 1||mods.indexOf(app.value)===3){
+            document.write('<div style="text-align:center"><img src="/Users/ashwingupta/eclipse-workspace/NutriApp-Feedback-Website/labels/minimum.png" style="width:300px;height:700px;" alt="Google Chrome Linear Design"></div>');
         }
         //application name allowed and linear label design selected
         else{
