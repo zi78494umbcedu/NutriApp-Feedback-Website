@@ -1,64 +1,31 @@
-<!--<!DOCTYPE html>
-<html>
-<head>
-<title>Software Nutrition Label Feedback</title>
-</head> 
-<body>
-<h1><i>Software Nutrition Label Design Feedback</i></h1> 
-<form action="/submit" method="post"> 
-<label for="app"><i>Select an application:</i></label> 
-<select id="app" name="app"> 
-<option value="Google Chrome">Google Chrome</option> 
-<option value="Gmail">Gmail</option> 
-<option value="Music">Music</option> 
-</select>
-<br>
-<br>
-<form action="/submit" method="post"> 
-    <label for="app"><i>Select a modality:</i></label> 
-    <select id="app" name="app"> 
-    <option value="Default">Default</option> 
-    <option value="Minimum Information">Minimum Information</option> 
-    <option value="Linear Design">Linear Design</option> 
-    <option value="HTML Modality">HTML Modality</option>     
-    </select> 
-    <br>
-    <br>
-    <br>
-<input type="text" name="feedback" placeholder="Your feedback"> 
-<button type="submit"><i>Submit Feedback</i> </button> 
-
-</form> 
-<br>
-    <br>
-    <br>
-<img src="/Users/ashwingupta/Desktop/ESL_research/logos/chrome.png"style="width:250px;height:175px;" alt="Google Chrome"><br>
-<img src="/Users/ashwingupta/Desktop/ESL_research/logos/Gmail2020.logo.png" style="width:200px;height:70px;"alt="Gmail "><br><br><br><br><br>
-<img src="/Users/ashwingupta/Desktop/ESL_research/logos/Apple_Music_icon.svg.png" style="width:100px;height:100px;"alt="Music ">
-</body> 
-</html>
--->
-
-
-
 <html>
     <head>
         <title></title>
         <link rel = "stylesheet" type="text/css" href="style.css">
-
     </head>
     <body>
+    <!--Center Align-->
     <div style="text-align:center">
         <h1><i>Software Nutrition Label <br>Design Feedback</i></h1> 
-
+        <!--Text Input for name of application-->
         Enter your application <input type="text" id="key">
+        <!--Form for modality dropdown-->
+        <form action="/submit" method="post"> <br><p> 
+            <label for="app">Select a modality</label>
+            <!--modality dropdown element id--> 
+            <select id="mod" name="modality"> 
+            <option value="default">Default</option> 
+            <option value="min_info">Minimum Information</option> 
+            <option value="linear">Linear Design</option> 
+            <option value="html">HTML Modality</option>     
+            </select> 
+        <!--Submit button element id-->
         <button id="sb">Search</button>
-        <img src="/Users/ashwingupta/Desktop/ESL_research/logos/chrome.png"style="width:140px;height:120px;" alt="Google Chrome"><br>
+    <!--Static Images of restricted Applications-->
+    <img src="/Users/ashwingupta/Desktop/ESL_research/logos/chrome.png"style="width:140px;height:120px;" alt="Google Chrome"><br>
     <img src="/Users/ashwingupta/eclipse-workspace/NutriApp-Feedback-Website/logos/gmail.png" style="width:120;height:30px;"alt="Gmail "><br><br><br>
-    <img src="/Users/ashwingupta/eclipse-workspace/NutriApp-Feedback-Website/logos/Apple_Music_icon.png" style="width:50px;height:50px;"alt="Music ">
-    
+    <img src="/Users/ashwingupta/eclipse-workspace/NutriApp-Feedback-Website/logos/Apple_Music_icon.png" style="width:50px;height:50px;"alt="Music "> 
     </div>
-    
     <script type="text/javascript" src="functions.js"></script>
     </body>
 </html>

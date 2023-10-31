@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "file:///Users/ashwingupta/eclipse-workspace/NutriApp-Feedback-Website/index.html",
+            "request": "launch",
+            "url": "file:///Users/ashwingupta/eclipse-workspace/NutriApp-Feedback-Website/index.html"
+        }
+    ]
+}
