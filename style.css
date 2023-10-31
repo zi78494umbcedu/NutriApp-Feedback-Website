@@ -1,6 +1,6 @@
 div {
     width: 450px;
-    height: 450px;
+    height: 500px;
     position: absolute;
     top:0;
     bottom: 0;
@@ -8,3 +8,24 @@ div {
     right: 0;
     margin: auto;
 }
+.sample-header {
+    position: fixed;
+    bottom: 100%;
+    width: 100%;
+    height: 25%;
+    background-image: url("/Users/ashwingupta/eclipse-workspace/NutriApp-Feedback-Website/logos/goldmaryland-flag-header-1280x180-gold.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 60%;
+  }
+
+.logo{
+    display:block;
+    width:175px;
+    height:125px;
+    background:url(/Users/ashwingupta/eclipse-workspace/NutriApp-Feedback-Website/logos/UMBC.jpeg) center no-repeat;
+    opacity: 100%;
+    background-size:cover;
+}
+
