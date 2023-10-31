@@ -10,7 +10,6 @@ div {
     background-image: url("/Users/ashwingupta/Desktop/ESL_research/logos/style-tile-textured-background-3221-bw.jpg");
     background-size: cover;
     width: 100%;
-    margin:auto;
 
 }
 .sample-header {
@@ -39,7 +38,7 @@ div {
   }
   body {
     display: flex;
-    justify-content: center;
+    justify-content: left;
   }
   .label{
     font-size: 16px;
