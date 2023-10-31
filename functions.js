@@ -23,8 +23,13 @@ function label(){
         if(mods.indexOf(app.value)===0){
             document.write('<div style="text-align:center"><img src="/Users/ashwingupta/eclipse-workspace/NutriApp-Feedback-Website/labels/default.png" style="width:300px;height:1000px;" alt="Google Chrome Linear Design"></div>');
         //minimum and html modality
-        }else if(mods.indexOf(app.value)=== 1||mods.indexOf(app.value)===3){
+        }else if(mods.indexOf(app.value)=== 1){
             document.write('<div style="text-align:center"><img src="/Users/ashwingupta/eclipse-workspace/NutriApp-Feedback-Website/labels/minimum.png" style="width:300px;height:700px;" alt="Google Chrome Linear Design"></div>');
+        }
+        else if(mods.indexOf(app.value)===3){
+            //document.write('');
+            var url="/Users/ashwingupta/Downloads/main.html"
+            document.write("<a href='"+url+"'>LINK</a>");
         }
         //application name allowed and linear label design selected
         else{

@@ -34,3 +34,52 @@ div {
     background-size:cover;
 }
 
+* {
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+  }
+  .label{
+    font-size: 16px;
+    font-family: "Arial";
+    width: 25%;
+    border: 2px solid black;
+    padding: 8px;
+  }
+  .flex{
+    display: flex;
+    justify-content: flex-start;
+    gap: 4px;
+  }
+  .title{
+    font-size: 26px;
+    margin: 4px 0;
+    text-align: justify;
+  }
+  .big-divider{
+    border-top: 14px solid #000;
+  }
+  .small-divider{
+    border-top: 6px solid #000;
+  }
+  .xsmall-divider{
+    border-top: 3px solid #000;
+  }
+  .small-font{
+    font-size: 12px;
+  }
+  .bold{
+    font-weight: bold;
+  }
+  summary {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  .content div{
+    padding: 0 10px;
+  }
